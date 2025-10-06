@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.Scripting.APIUpdating;
+using UnityEngine.U2D.IK;
 
 public class delivery : MonoBehaviour
 {
-  bool has_package = false;
-   float destroy_delay = 0.08f;
+  /*bool has_package = false;
+  float destroy_delay = 0.08f;
+
   void OnTriggerEnter2D(Collider2D collision)
   {
     if (collision.CompareTag("package"))
@@ -16,18 +19,19 @@ public class delivery : MonoBehaviour
       {
 
         has_package = true;
+        
         GetComponent<ParticleSystem>().Play();
         Debug.Log("package picked up");
         Destroy(collision.gameObject, destroy_delay);
       }
     }
-      
+
     if (collision.CompareTag("customer"))
     {
       if (has_package)
       {
         has_package = false;
-        GetComponent<ParticleSystem>().Stop();
+        if () { GetComponent<ParticleSystem>().Stop(); }
         Debug.Log("delivered");
       }
       else
@@ -36,5 +40,7 @@ public class delivery : MonoBehaviour
       }
     }
 
-  }
+  }*/
+ 
+
 }
