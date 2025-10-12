@@ -3,7 +3,7 @@ using UnityEngine.Scripting.APIUpdating;
 using UnityEngine.U2D.IK;
 
 public class delivery : MonoBehaviour
-{
+{ bool yes;
   /*bool has_package = false;
   float destroy_delay = 0.08f;
 
